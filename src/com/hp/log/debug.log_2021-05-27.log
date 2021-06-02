@@ -1,0 +1,42 @@
+2021-05-27 10:30:30 上午 [Thread: main][ Class:org.springframework.context.support.ClassPathXmlApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590) ]
+DEBUG:Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2aa5fe93
+2021-05-27 10:30:30 上午 [Thread: main][ Class:org.springframework.core.KotlinDetector >> Method: org.springframework.core.KotlinDetector.<clinit>(KotlinDetector.java:57) ]
+INFO:Kotlin reflection implementation not found at runtime, related features won't be available.
+2021-05-27 10:30:31 上午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:395) ]
+DEBUG:Loaded 1 bean definitions from class path resource [applicationContext.xml]
+2021-05-27 10:30:31 上午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:213) ]
+DEBUG:Creating shared instance of singleton bean 'useeDao'
+2021-05-27 10:30:51 上午 [Thread: main][ Class:org.springframework.context.support.ClassPathXmlApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590) ]
+DEBUG:Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@45dd4eda
+2021-05-27 10:30:51 上午 [Thread: main][ Class:org.springframework.core.KotlinDetector >> Method: org.springframework.core.KotlinDetector.<clinit>(KotlinDetector.java:57) ]
+INFO:Kotlin reflection implementation not found at runtime, related features won't be available.
+2021-05-27 10:30:51 上午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:395) ]
+DEBUG:Loaded 1 bean definitions from class path resource [applicationContext.xml]
+2021-05-27 10:30:51 上午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:213) ]
+DEBUG:Creating shared instance of singleton bean 'userDao'
+2021-05-27 10:32:38 上午 [Thread: main][ Class:org.springframework.context.support.ClassPathXmlApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590) ]
+DEBUG:Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@45dd4eda
+2021-05-27 10:32:38 上午 [Thread: main][ Class:org.springframework.core.KotlinDetector >> Method: org.springframework.core.KotlinDetector.<clinit>(KotlinDetector.java:57) ]
+INFO:Kotlin reflection implementation not found at runtime, related features won't be available.
+2021-05-27 10:32:38 上午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:395) ]
+DEBUG:Loaded 1 bean definitions from class path resource [applicationContext.xml]
+2021-05-27 10:32:38 上午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:213) ]
+DEBUG:Creating shared instance of singleton bean 'userDao'
+2021-05-27 10:41:42 上午 [Thread: main][ Class:org.springframework.context.support.ClassPathXmlApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590) ]
+DEBUG:Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@45dd4eda
+2021-05-27 10:41:42 上午 [Thread: main][ Class:org.springframework.core.KotlinDetector >> Method: org.springframework.core.KotlinDetector.<clinit>(KotlinDetector.java:57) ]
+INFO:Kotlin reflection implementation not found at runtime, related features won't be available.
+2021-05-27 10:41:42 上午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:395) ]
+DEBUG:Loaded 1 bean definitions from class path resource [applicationContext.xml]
+2021-05-27 10:41:42 上午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:213) ]
+DEBUG:Creating shared instance of singleton bean 'userDao'
+2021-05-27 11:03:53 上午 [Thread: main][ Class:org.springframework.context.support.ClassPathXmlApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590) ]
+DEBUG:Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@45dd4eda
+2021-05-27 11:03:53 上午 [Thread: main][ Class:org.springframework.core.KotlinDetector >> Method: org.springframework.core.KotlinDetector.<clinit>(KotlinDetector.java:57) ]
+INFO:Kotlin reflection implementation not found at runtime, related features won't be available.
+2021-05-27 11:03:54 上午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:395) ]
+DEBUG:Loaded 2 bean definitions from class path resource [applicationContext.xml]
+2021-05-27 11:03:54 上午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:213) ]
+DEBUG:Creating shared instance of singleton bean 'userDao'
+2021-05-27 11:03:54 上午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:213) ]
+DEBUG:Creating shared instance of singleton bean 'customer'

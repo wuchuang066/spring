@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="userDao" class="com.zpark.basic.dao.UserDao"></bean>
+    <bean id="customer" class="com.zpark.basic.entity.Customer">
+        <property name="name" value="xiaozhang"/>
+        <property name="age" value="18"/>
+        <!--        数组-->
+        <property name="emails">
+            <list>
+                <value>123@qq.com</value>
+                <value>456@qq.com</value>
+                <value>789@qq.com</value>
+            </list>
+        </property>
+        <!--        list 集合-->
+        <property name="address">
+            <list>
+                <value>北京市一区</value>
+                <value>北京市二区</value>
+                <value>北京市三区</value>
+            </list>
+        </property>
+        <!--        set集合-->
+        <property name="tels">
+            <set>
+                <value>1891111</value>
+                <value>1892222</value>
+                <value>1893333</value>
+            </set>
+        </property>
+        <!--        map-->
+        <property name="qqs">
+            <map>
+                <entry>
+                    <key>
+                        <value>1111</value>
+                    </key>
+                    <value>qqqq</value>
+                </entry>
+                <entry>
+                    <key>
+                        <value>2222</value>
+                    </key>
+                    <value>wwww</value>
+                </entry>
+                <entry>
+                    <key>
+                        <value>3333</value>
+                    </key>
+                    <value>eeee</value>
+                </entry>
+            </map>
+        </property>
+        <property name="p">
+            <props>
+                <prop key="p1">v1</prop>
+                <prop key="p2">v2</prop>
+                <prop key="p3">v3</prop>
+            </props>
+        </property>
+    </bean>
+</beans>
