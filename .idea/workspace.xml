@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f657ca8-3f46-4a7f-ab82-a1c6a5d01d17" name="Default Changelist" comment="" />
+    <list default="true" id="5f657ca8-3f46-4a7f-ab82-a1c6a5d01d17" name="Default Changelist" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/basic/service/proxy/MyArround.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/basic/spring/proxy/TestCglibProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/basic/spring/proxy/TestJDKProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hp/log/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hp/log/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hp/log/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hp/log/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zpark/basic/service/proxy/MyProxyMethodBeforeAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zpark/basic/service/proxy/MyProxyMethodBeforeAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zpark/basic/service/proxy/MyProxyMethodBeforeAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zpark/basic/service/proxy/MyProxyMethodBeforeAdvice.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +31,12 @@
   </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="C:\Program Files\Git\cmd\git.exe" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HierarchyBrowserManager">
     <option name="SCOPE" value="All" />
@@ -34,6 +51,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1pVD1D9DGF01Al4b7Z4djOvrq1u" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,7 +63,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,26 +80,39 @@
       <recent name="com.zpark.basic" />
       <recent name="com.zpark.basic.dao" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sogou" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.sogou" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\project\spring\src\main\resources" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.sogou" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyFactoryBeanTest.test">
-    <configuration name="BeanFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zpark.basic.spring.BeanFactory" />
+  <component name="RunManager" selected="Application.TestCglibProxy">
+    <configuration name="TestCglibProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zpark.basic.spring.proxy.TestCglibProxy" />
       <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zpark.basic.entity.*" />
+          <option name="PATTERN" value="com.zpark.basic.spring.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJDKProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zpark.basic.spring.proxy.TestJDKProxy" />
+      <module name="spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zpark.basic.spring.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,7 +137,7 @@
       <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zpark.basic.spring.*" />
+          <option name="PATTERN" value="com.zpark.basic.service.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,29 +164,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zpark.basic.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zpark.basic.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.zpark.basic.dao.UserDaoTest" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCglibProxy" />
+        <item itemvalue="Application.TestJDKProxy" />
         <item itemvalue="JUnit.MyFactoryBeanTest.test" />
         <item itemvalue="Application.UserDaoTest" />
         <item itemvalue="JUnit.UserDaoTest" />
-        <item itemvalue="JUnit.UserDaoTest.test01" />
-        <item itemvalue="Application.BeanFactory" />
       </list>
     </recent_temporary>
   </component>
@@ -177,12 +192,24 @@
       <workItem from="1622182151213" duration="1830000" />
       <workItem from="1622446105870" duration="709000" />
       <workItem from="1622528580176" duration="3986000" />
-      <workItem from="1622536480025" duration="7509000" />
+      <workItem from="1622536480025" duration="18294000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1622624817567</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622624817567</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="197" key="#Inspections" timestamp="1622617954471">
@@ -201,14 +228,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617328891083" />
-    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1622623142103">
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1622801503998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1622623142103" />
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1622801503998" />
     <state x="584" y="431" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1622619478809">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="584" y="431" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1622619478809" />
+    <state x="736" y="386" width="447" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1622800944838">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="736" y="386" width="447" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1622800944838" />
+    <state x="736" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1622800940012">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="736" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1622800940012" />
     <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622082236012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -217,50 +252,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="221" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1617258838609" />
-    <state width="737" height="572" key="DebuggerActiveHint" timestamp="1622081773621">
+    <state width="1303" height="572" key="DebuggerActiveHint" timestamp="1622627545681">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="737" height="572" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1622081773621" />
+    <state width="1303" height="572" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1622627545681" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1617257748227">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617257748227" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1622624699134">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1622624744611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1622624699134" />
-    <state width="1876" height="335" key="GridCell.Tab.0.bottom" timestamp="1622623823171">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1622624744611" />
+    <state width="1876" height="395" key="GridCell.Tab.0.bottom" timestamp="1622801818071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="335" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622623823171" />
-    <state width="1876" height="335" key="GridCell.Tab.0.center" timestamp="1622623823171">
+    <state width="1876" height="395" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622801818071" />
+    <state width="1876" height="395" key="GridCell.Tab.0.center" timestamp="1622801818071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="335" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622623823171" />
-    <state width="1876" height="335" key="GridCell.Tab.0.left" timestamp="1622623823171">
+    <state width="1876" height="395" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622801818071" />
+    <state width="1876" height="395" key="GridCell.Tab.0.left" timestamp="1622801818070">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="335" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622623823171" />
-    <state width="1876" height="335" key="GridCell.Tab.0.right" timestamp="1622623823171">
+    <state width="1876" height="395" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622801818070" />
+    <state width="1876" height="395" key="GridCell.Tab.0.right" timestamp="1622801818071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="335" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622623823171" />
-    <state width="1876" height="399" key="GridCell.Tab.1.bottom" timestamp="1622622245386">
+    <state width="1876" height="395" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622801818071" />
+    <state width="1876" height="294" key="GridCell.Tab.1.bottom" timestamp="1622700902977">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="399" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622622245386" />
-    <state width="1876" height="399" key="GridCell.Tab.1.center" timestamp="1622622245386">
+    <state width="1876" height="294" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622700902977" />
+    <state width="1876" height="294" key="GridCell.Tab.1.center" timestamp="1622700902977">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="399" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622622245386" />
-    <state width="1876" height="399" key="GridCell.Tab.1.left" timestamp="1622622245386">
+    <state width="1876" height="294" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622700902977" />
+    <state width="1876" height="294" key="GridCell.Tab.1.left" timestamp="1622700902977">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="399" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622622245386" />
-    <state width="1876" height="399" key="GridCell.Tab.1.right" timestamp="1622622245386">
+    <state width="1876" height="294" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622700902977" />
+    <state width="1876" height="294" key="GridCell.Tab.1.right" timestamp="1622700902977">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="399" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622622245386" />
+    <state width="1876" height="294" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622700902977" />
     <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1622529544021">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -269,6 +304,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1622624733305" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1622624991356">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1622624991356" />
     <state x="731" y="346" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1622529953951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

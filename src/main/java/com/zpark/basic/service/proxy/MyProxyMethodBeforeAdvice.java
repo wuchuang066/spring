@@ -16,6 +16,6 @@ public class MyProxyMethodBeforeAdvice implements MethodBeforeAdvice {
      */
     @Override
     public void before(Method method, Object[] objects, Object o) throws Throwable {
-        System.out.println("MyProxyMethodBeforeAdvice"+method);
+        System.out.println("MyProxyMethodBeforeAdvice:"+method);
     }
 }
