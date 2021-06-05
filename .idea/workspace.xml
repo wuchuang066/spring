@@ -1,15 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f657ca8-3f46-4a7f-ab82-a1c6a5d01d17" name="Default Changelist" comment="06-04">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/basic/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/basic/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/basic/spring/ProxyBeanPostProcesser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zpark/basic/spring/ProxyBeanPostProcesserTest.java" afterDir="false" />
+    <list default="true" id="5f657ca8-3f46-4a7f-ab82-a1c6a5d01d17" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/basic/service/aspect/MyAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/basic/service/aspect/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/basic/service/aspect/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hp/log/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hp/log/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hp/log/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hp/log/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hp/log/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hp/log/debug.log_2021-04-06.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hp/log/debug.log_2021-05-27.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hp/log/debug.log_2021-05-28.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hp/log/debug.log_2021-06-01.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hp/log/error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hp/log/info.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hp/log/info.log_2021-04-06.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hp/log/info.log_2021-05-27.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hp/log/info.log_2021-05-28.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hp/log/info.log_2021-06-01.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hp/log/warn.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hp/log/warn.log_2021-04-06.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sogou/MyConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sogou/MyConfig2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sogou/MyImportBeanDefinitionRegistrar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sogou/MyImportSelector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sogou/RainBow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sogou/TestCondition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sogou/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sogou/dao/TestDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sogou/entity/AService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sogou/entity/BService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sogou/entity/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sogou/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sogou/service/TestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sogou/TestSpring.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sogou/TestSpringXunhuan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zpark/basic/spring/ProxyBeanPostProcesserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zpark/basic/spring/ProxyBeanPostProcesserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sogou/MyConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sogou/MyConfig2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sogou/MyImportBeanDefinitionRegistrar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sogou/MyImportSelector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sogou/RainBow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sogou/TestCondition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sogou/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sogou/dao/TestDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sogou/entity/AService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sogou/entity/BService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sogou/entity/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sogou/entity/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sogou/service/TestService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zpark/basic/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zpark/basic/entity/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zpark/basic/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zpark/basic/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zpark/basic/service/proxy/MyProxyMethodBeforeAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zpark/basic/spring/BeanFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zpark/basic/spring/DateConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zpark/basic/spring/MyBeanFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zpark/basic/spring/MyBeanPostProcesser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zpark/basic/spring/MyFactoryBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sogou/TestSpring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sogou/TestSpringXunhuan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zpark/basic/MyFactoryBeanTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zpark/basic/dao/UserDaoTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,15 +86,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="spring-beans.schema" />
         <option value="Interface" />
-        <option value="Class" />
+        <option value="spring-beans.schema" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PATH_TO_GIT" value="C:\Program Files\Git\cmd\git.exe" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -49,14 +114,18 @@
     </option>
   </component>
   <component name="ProjectId" id="1pVD1D9DGF01Al4b7Z4djOvrq1u" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -71,34 +140,34 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.zpark.basic.spring" />
-      <recent name="com.zpark.basic" />
-      <recent name="com.zpark.basic.dao" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.sogou" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.sogou" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\project\spring\src\main\resources" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.zpark.basic" />
+      <recent name="com.zpark.basic.dao" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zpark.basic.service.aspect" />
+      <recent name="com.sogou" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProxyBeanPostProcesserTest">
-    <configuration name="TestCglibProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zpark.basic.spring.proxy.TestCglibProxy" />
+  <component name="RunManager" selected="JUnit.ProxyBeanPostProcesserTest.test">
+    <configuration name="UserDaoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zpark.basic.dao.UserDaoTest" />
       <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zpark.basic.spring.proxy.*" />
+          <option name="PATTERN" value="com.zpark.basic.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,15 +175,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestJDKProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zpark.basic.spring.proxy.TestJDKProxy" />
-      <module name="spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zpark.basic.spring.proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,7 +190,7 @@
       <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zpark.basic.service.proxy.*" />
+          <option name="PATTERN" value="com.zpark.basic.spring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,21 +198,6 @@
       <option name="MAIN_CLASS_NAME" value="com.zpark.basic.MyFactoryBeanTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProxyBeanPostProcesserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zpark.basic.spring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zpark.basic.spring" />
-      <option name="MAIN_CLASS_NAME" value="com.zpark.basic.spring.ProxyBeanPostProcesserTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -166,13 +218,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zpark.basic.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zpark.basic.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.zpark.basic.dao.UserDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zpark.basic.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zpark.basic.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.zpark.basic.dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProxyBeanPostProcesserTest" />
         <item itemvalue="JUnit.ProxyBeanPostProcesserTest.test" />
-        <item itemvalue="Application.TestCglibProxy" />
-        <item itemvalue="Application.TestJDKProxy" />
         <item itemvalue="JUnit.MyFactoryBeanTest.test" />
+        <item itemvalue="Application.UserDaoTest" />
+        <item itemvalue="JUnit.UserDaoTest" />
+        <item itemvalue="JUnit.UserDaoTest.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -194,150 +277,24 @@
       <workItem from="1622182151213" duration="1830000" />
       <workItem from="1622446105870" duration="709000" />
       <workItem from="1622528580176" duration="3986000" />
-      <workItem from="1622536480025" duration="19780000" />
+      <workItem from="1622536480025" duration="7509000" />
     </task>
-    <task id="LOCAL-00001" summary="first commit">
-      <created>1622624817567</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1622624817567</updated>
-    </task>
-    <task id="LOCAL-00002" summary="06-04">
-      <created>1622802488884</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1622802488884</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
-    <MESSAGE value="06-04" />
-    <option name="LAST_COMMIT_MESSAGE" value="06-04" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="586" y="197" key="#Inspections" timestamp="1622617954471">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="586" y="197" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1622617954471" />
-    <state x="842" y="381" width="661" height="279" key="#Notifications" timestamp="1617246168293">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="842" y="381" width="661" height="279" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1617246168293" />
-    <state x="440" y="93" key="#Project_Structure" timestamp="1615280030431">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="93" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1615280030431" />
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617328891083">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617328891083" />
-    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1622804198269">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1622804198269" />
-    <state x="584" y="431" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1622619478809">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="584" y="431" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1622619478809" />
-    <state x="736" y="386" width="447" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1622800944838">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="736" y="386" width="447" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1622800944838" />
-    <state x="736" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1622800940012">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="736" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1622800940012" />
-    <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622082236012">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1622082236012" />
-    <state x="715" y="221" key="#xdebugger.evaluate" timestamp="1617258838609">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="715" y="221" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1617258838609" />
-    <state width="1303" height="572" key="DebuggerActiveHint" timestamp="1622627545681">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1303" height="572" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1622627545681" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1617257748227">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617257748227" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1622624744611">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1622624744611" />
-    <state width="1876" height="304" key="GridCell.Tab.0.bottom" timestamp="1622804527893">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622804527893" />
-    <state width="1876" height="304" key="GridCell.Tab.0.center" timestamp="1622804527893">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="304" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622804527893" />
-    <state width="1876" height="304" key="GridCell.Tab.0.left" timestamp="1622804527893">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="304" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622804527893" />
-    <state width="1876" height="304" key="GridCell.Tab.0.right" timestamp="1622804527893">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="304" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622804527893" />
-    <state width="1876" height="294" key="GridCell.Tab.1.bottom" timestamp="1622700902977">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="294" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622700902977" />
-    <state width="1876" height="294" key="GridCell.Tab.1.center" timestamp="1622700902977">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="294" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622700902977" />
-    <state width="1876" height="294" key="GridCell.Tab.1.left" timestamp="1622700902977">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="294" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622700902977" />
-    <state width="1876" height="294" key="GridCell.Tab.1.right" timestamp="1622700902977">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="294" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622700902977" />
-    <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1622529544021">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="490" y="174" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1622529544021" />
-    <state x="461" y="151" key="SettingsEditor" timestamp="1622624733305">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1622624733305" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1622802490573">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1622802490573" />
-    <state x="731" y="346" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1622804383796">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="731" y="346" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1622804383796" />
-    <state x="690" y="267" key="extract.method.dialog" timestamp="1622081198856">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="267" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1622081198856" />
-    <state x="662" y="254" width="596" height="532" key="find.popup" timestamp="1622623570564">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="662" y="254" width="596" height="532" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1622623570564" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1622619605256">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1622619605256" />
-    <state x="640" y="202" key="spring file set editor" timestamp="1622084298922">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="640" y="202" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1622084298922" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -361,6 +318,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/zpark/basic/spring/MyBeanPostProcesser.java</url>
           <line>13</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/zpark/basic/spring/ProxyBeanPostProcesserTest.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zpark/basic/service/aspect/UserServiceImpl.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zpark/basic/service/aspect/MyAspect.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zpark/basic/service/aspect/MyAspect.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

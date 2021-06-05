@@ -1,2 +1,0 @@
-2021-04-06 18:20:09 下午 [Thread: main][ Class:org.springframework.core.KotlinDetector >> Method: org.springframework.core.KotlinDetector.<clinit>(KotlinDetector.java:57) ]
-INFO:Kotlin reflection implementation not found at runtime, related features won't be available.
