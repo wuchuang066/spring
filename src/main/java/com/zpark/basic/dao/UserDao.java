@@ -1,4 +1,8 @@
 package com.zpark.basic.dao;
 
-public class UserDao {
+import com.zpark.basic.entity.User;
+
+public interface UserDao {
+
+    int insertUsers(User user);
 }

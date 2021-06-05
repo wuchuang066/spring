@@ -1,0 +1,10 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zpark.basic.dao.UserDao">
+    <insert id="insertUsers" parameterType="com.zpark.basic.entity.User">
+        insert into t_users(name,password) values (#{name},#{password})
+    </insert>
+
+</mapper>
