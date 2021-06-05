@@ -4,78 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f657ca8-3f46-4a7f-ab82-a1c6a5d01d17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/basic/service/aspect/MyAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/basic/service/aspect/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/basic/service/aspect/UserServiceImpl.java" afterDir="false" />
+    <list default="true" id="5f657ca8-3f46-4a7f-ab82-a1c6a5d01d17" name="Default Changelist" comment="去除classes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/basic/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContextMybatisSpring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/springjdbc.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hp/log/debug.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hp/log/debug.log_2021-04-06.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hp/log/debug.log_2021-05-27.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hp/log/debug.log_2021-05-28.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hp/log/debug.log_2021-06-01.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hp/log/error.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hp/log/info.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hp/log/info.log_2021-04-06.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hp/log/info.log_2021-05-27.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hp/log/info.log_2021-05-28.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hp/log/info.log_2021-06-01.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hp/log/warn.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hp/log/warn.log_2021-04-06.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sogou/MyConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sogou/MyConfig2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sogou/MyImportBeanDefinitionRegistrar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sogou/MyImportSelector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sogou/RainBow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sogou/TestCondition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sogou/controller/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sogou/dao/TestDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sogou/entity/AService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sogou/entity/BService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sogou/entity/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sogou/entity/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sogou/service/TestService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sogou/TestSpring.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sogou/TestSpringXunhuan.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zpark/basic/spring/ProxyBeanPostProcesserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zpark/basic/spring/ProxyBeanPostProcesserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sogou/MyConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sogou/MyConfig2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sogou/MyImportBeanDefinitionRegistrar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sogou/MyImportSelector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sogou/RainBow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sogou/TestCondition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sogou/controller/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sogou/dao/TestDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sogou/entity/AService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sogou/entity/BService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sogou/entity/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sogou/entity/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sogou/service/TestService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zpark/basic/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zpark/basic/entity/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zpark/basic/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zpark/basic/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zpark/basic/service/proxy/MyProxyMethodBeforeAdvice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zpark/basic/spring/BeanFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zpark/basic/spring/DateConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zpark/basic/spring/MyBeanFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zpark/basic/spring/MyBeanPostProcesser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zpark/basic/spring/MyFactoryBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sogou/TestSpring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sogou/TestSpringXunhuan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zpark/basic/MyFactoryBeanTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zpark/basic/dao/UserDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zpark/basic/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zpark/basic/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zpark/basic/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zpark/basic/dao/UserDaoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,8 +26,8 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="spring-beans.schema" />
         <option value="JUnit5 Test Class" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -107,9 +46,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\maven\repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.5.4" />
-        <option name="userSettingsFile" value="D:\apache-maven-3.5.4\conf\settings.xml" />
+        <option name="localRepository" value="/Library/software/Reposi" />
+        <option name="mavenHome" value="/Library/software/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="/Library/software/apache-maven-3.6.3/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -140,7 +79,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -161,7 +100,7 @@
       <recent name="com.sogou" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProxyBeanPostProcesserTest.test">
+  <component name="RunManager" selected="Application.UserDaoTest">
     <configuration name="UserDaoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zpark.basic.dao.UserDaoTest" />
       <module name="spring" />
@@ -171,17 +110,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -251,14 +179,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserDaoTest" />
         <item itemvalue="JUnit.ProxyBeanPostProcesserTest.test" />
         <item itemvalue="JUnit.MyFactoryBeanTest.test" />
-        <item itemvalue="Application.UserDaoTest" />
         <item itemvalue="JUnit.UserDaoTest" />
         <item itemvalue="JUnit.UserDaoTest.test01" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -278,11 +207,21 @@
       <workItem from="1622446105870" duration="709000" />
       <workItem from="1622528580176" duration="3986000" />
       <workItem from="1622536480025" duration="7509000" />
+      <workItem from="1622904413884" duration="2097000" />
+      <workItem from="1622906537881" duration="21000" />
     </task>
+    <task id="LOCAL-00001" summary="去除classes">
+      <created>1622903708129</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622903708129</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -295,6 +234,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="去除classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="去除classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
