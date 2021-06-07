@@ -1,6 +1,7 @@
 package com.zpark.basic;
 
 import com.zpark.basic.entity.Customer;
+import com.zpark.basic.entity.User;
 import com.zpark.basic.service.UserService;
 import com.zpark.basic.service.impl.UserServiceImpl;
 import com.zpark.basic.spring.MyFactoryBean;
@@ -24,7 +25,7 @@ public class MyFactoryBeanTest {
         System.out.println("------------------------aop------------------------------");
         UserService userServiceImpl = (UserService) context.getBean("userServiceImpl");
         userServiceImpl.login("123", "3242");
-        userServiceImpl.register(new Customer());
+        userServiceImpl.register(new User());
     }
 
 }
