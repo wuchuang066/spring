@@ -5,6 +5,9 @@ import org.springframework.beans.factory.FactoryBean;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
+/**
+ * 创建复杂对象
+ */
 public class MyFactoryBean implements FactoryBean<Connection> {
     private String driverClassName;
     private String url;

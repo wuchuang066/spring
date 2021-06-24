@@ -27,6 +27,7 @@ public class Customer implements Serializable, InitializingBean {
 //        setAge(11);
         System.out.println(this.age+"我是调用initmethod执行的方法");
     }
+
     @Override
     public String toString() {
         return "Customer{" +
@@ -37,6 +38,7 @@ public class Customer implements Serializable, InitializingBean {
                 ", address=" + address +
                 ", qqs=" + qqs +
                 ", p=" + p +
+                ", birth=" + birth +
                 '}';
     }
 

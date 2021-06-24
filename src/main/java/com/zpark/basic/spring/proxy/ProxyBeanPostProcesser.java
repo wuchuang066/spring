@@ -1,4 +1,4 @@
-package com.zpark.basic.spring;
+package com.zpark.basic.spring.proxy;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;

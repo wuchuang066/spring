@@ -3,8 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="userDao" class="com.zpark.basic.dao.UserDao"></bean>
-    <bean id="customer" class="com.zpark.basic.entity.Customer">
+    <bean id="customer" class="com.zpark.basic.entity.Customer"  init-method="abc">
         <property name="name" value="xiaozhang"/>
         <property name="age" value="18"/>
         <!--        数组-->

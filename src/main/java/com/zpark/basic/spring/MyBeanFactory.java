@@ -7,6 +7,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
+/**
+ * 自己写的工厂类
+ */
 public class MyBeanFactory {
     private static Properties env = new Properties();
 
