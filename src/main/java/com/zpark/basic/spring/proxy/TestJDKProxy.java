@@ -1,7 +1,7 @@
 package com.zpark.basic.spring.proxy;
 
 import com.zpark.basic.service.UserService;
-import com.zpark.basic.service.impl.UserServiceImpl;
+import com.zpark.basic.service.aspect.UserServiceImpl;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

@@ -1,6 +1,7 @@
 package com.zpark.basic.applicationContext;
 
 import com.zpark.basic.entity.Customer;
+import com.zpark.basic.service.UserService;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -40,5 +41,15 @@ public class Test2 {
         ApplicationContext context = new ClassPathXmlApplicationContext("/applicationContext2.xml");
         Customer customer = (Customer) context.getBean("customer2");
         System.out.println(customer);
+    }
+
+    /**
+     * 测试MethodBeforeAdvice
+     */
+    @Test
+    public void testMethodBeforeAdvice() {
+        ApplicationContext context = new ClassPathXmlApplicationContext("/applicationContext2.xml");
+        UserService userService = (UserService) context.getBean("userService");
+        userService.login("123","234");
     }
 }

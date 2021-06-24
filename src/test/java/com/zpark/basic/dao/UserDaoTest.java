@@ -14,7 +14,7 @@ public class UserDaoTest {
         ApplicationContext context =
                 new ClassPathXmlApplicationContext("/applicationContextMybatisSpring.xml");
         UserDao userDao = (UserDao)context.getBean("userDao");
-        User user = new User();
+        Customer user = new Customer();
         user.setName("xiaohong");
         user.setPassword("123456");
         userDao.insertUsers(user);

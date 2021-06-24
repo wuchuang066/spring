@@ -1,12 +1,8 @@
 package com.zpark.basic.spring.proxy;
 
-import com.zpark.basic.service.impl.UserServiceImpl;
-import org.springframework.cglib.proxy.Callback;
+import com.zpark.basic.service.aspect.UserServiceImpl;
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.MethodInterceptor;
-import org.springframework.cglib.proxy.MethodProxy;
-
-import java.lang.reflect.Method;
 
 public class TestCglibProxy {
     public static void main(String[] args) {

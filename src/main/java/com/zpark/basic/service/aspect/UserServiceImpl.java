@@ -1,6 +1,7 @@
 package com.zpark.basic.service.aspect;
 
 import com.zpark.basic.entity.Customer;
+import com.zpark.basic.service.UserService;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;

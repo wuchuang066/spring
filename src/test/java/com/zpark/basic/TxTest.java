@@ -7,14 +7,12 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import java.sql.Connection;
-
 public class TxTest {
     @Test
     public void test() {
         ApplicationContext context = new ClassPathXmlApplicationContext("/applicationContextMybatisSpring.xml");
         UserService userService = (UserService) context.getBean("userService");
-        User user = new User();
+        Customer user = new Customer();
         user.setName("xiaowangba");
         user.setPassword("234234");
         userService.register(user);

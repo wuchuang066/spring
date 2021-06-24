@@ -22,17 +22,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f657ca8-3f46-4a7f-ab82-a1c6a5d01d17" name="Default Changelist" comment="06-07 spring 配置事务">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zpark/basic/applicationContext/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zpark/basic/applicationContext/Test2.java" afterDir="false" />
+    <list default="true" id="5f657ca8-3f46-4a7f-ab82-a1c6a5d01d17" name="Default Changelist" comment="sdfsd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zpark/basic/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zpark/basic/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zpark/basic/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zpark/basic/entity/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zpark/basic/spring/MyBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zpark/basic/spring/MyBeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zpark/basic/spring/MyBeanPostProcesser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zpark/basic/spring/MyBeanPostProcesser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zpark/basic/spring/MyFactoryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zpark/basic/spring/MyFactoryBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zpark/basic/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zpark/basic/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zpark/basic/service/aspect/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zpark/basic/service/aspect/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zpark/basic/service/aspect/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zpark/basic/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zpark/basic/service/proxy/MyProxyMethodBeforeAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zpark/basic/service/proxy/MyProxyMethodBeforeAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zpark/basic/spring/proxy/TestCglibProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zpark/basic/spring/proxy/TestCglibProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zpark/basic/spring/proxy/TestJDKProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zpark/basic/spring/proxy/TestJDKProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zpark/basic/TxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zpark/basic/TxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zpark/basic/applicationContext/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zpark/basic/applicationContext/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zpark/basic/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zpark/basic/dao/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zpark/basic/spring/ProxyBeanPostProcesserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zpark/basic/spring/ProxyBeanPostProcesserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,41 +106,28 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.sogou" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\project\spring\src\main\resources" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.zpark.basic" />
+      <recent name="com.zpark.basic.dao" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateTestDialog.RecentsKey">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zpark.basic" />
-      <recent name="com.zpark.basic.dao" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.zpark.basic.service.aspect" />
       <recent name="com.sogou" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\spring\src\main\resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sogou" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test2.testConverter">
-    <configuration name="MyFactoryBeanTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zpark.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zpark.basic" />
-      <option name="MAIN_CLASS_NAME" value="com.zpark.basic.MyFactoryBeanTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Test2.testMethodBeforeAdvice">
     <configuration name="Test1.testCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring" />
       <extension name="coverage">
@@ -199,13 +192,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test2.testMethodBeforeAdvice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zpark.basic.applicationContext.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zpark.basic.applicationContext" />
+      <option name="MAIN_CLASS_NAME" value="com.zpark.basic.applicationContext.Test2" />
+      <option name="METHOD_NAME" value="testMethodBeforeAdvice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test2.testMethodBeforeAdvice" />
         <item itemvalue="JUnit.Test2.testConverter" />
         <item itemvalue="JUnit.Test2.testCustomer" />
         <item itemvalue="JUnit.Test2.testFactoryBean" />
         <item itemvalue="JUnit.Test1.testCustomer" />
-        <item itemvalue="JUnit.MyFactoryBeanTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622903708129</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="sdfsd">
+      <created>1624516464733</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624516464733</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,33 +275,42 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="去除classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="去除classes" />
+    <MESSAGE value="sdfsd" />
+    <option name="LAST_COMMIT_MESSAGE" value="sdfsd" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="710" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1624516098499">
+    <state x="710" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1624527676450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="710" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1624516098499" />
+    <state x="710" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1624527676450" />
+    <state x="736" y="386" width="447" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1624516426298">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="736" y="386" width="447" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1624516426298" />
     <state x="470" y="27" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1624507681340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="470" y="27" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1624507681340" />
-    <state width="1876" height="219" key="GridCell.Tab.0.bottom" timestamp="1624516182841">
+    <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1624527997659">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="219" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1624516182841" />
-    <state width="1876" height="219" key="GridCell.Tab.0.center" timestamp="1624516182838">
+    <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1624527997659" />
+    <state width="1876" height="292" key="GridCell.Tab.0.bottom" timestamp="1624528032063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="219" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1624516182838" />
-    <state width="1876" height="219" key="GridCell.Tab.0.left" timestamp="1624516182837">
+    <state width="1876" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1624528032063" />
+    <state width="1876" height="292" key="GridCell.Tab.0.center" timestamp="1624528032062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="219" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1624516182837" />
-    <state width="1876" height="219" key="GridCell.Tab.0.right" timestamp="1624516182839">
+    <state width="1876" height="292" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1624528032062" />
+    <state width="1876" height="292" key="GridCell.Tab.0.left" timestamp="1624528032062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="219" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624516182839" />
+    <state width="1876" height="292" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1624528032061" />
+    <state width="1876" height="292" key="GridCell.Tab.0.right" timestamp="1624528032062">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="292" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624528032062" />
     <state width="1876" height="183" key="GridCell.Tab.1.bottom" timestamp="1624507288343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -302,10 +327,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1876" height="183" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624507288343" />
-    <state x="662" y="254" width="596" height="532" key="find.popup" timestamp="1624516066881">
+    <state x="552" y="238" key="Vcs.Push.Dialog.v2" timestamp="1624516468151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="254" width="596" height="532" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1624516066881" />
+    <state x="552" y="238" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1624516468151" />
+    <state x="662" y="254" width="596" height="532" key="find.popup" timestamp="1624527140968">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="662" y="254" width="596" height="532" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1624527140968" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -332,12 +361,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/zpark/basic/spring/ProxyBeanPostProcesserTest.java</url>
-          <line>18</line>
+          <line>16</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/zpark/basic/service/aspect/UserServiceImpl.java</url>
-          <line>20</line>
+          <line>21</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

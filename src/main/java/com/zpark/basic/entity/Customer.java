@@ -14,6 +14,15 @@ public class Customer implements Serializable, InitializingBean {
     private Map<String,String> qqs;
     private Properties p;
     private Date birth;
+    private String password;
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 
     public Date getBirth() {
         return birth;

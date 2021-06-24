@@ -32,13 +32,14 @@
     <bean id="myBeanPostProcesser" class="com.zpark.basic.spring.MyBeanPostProcesser">
     </bean>
 
-    <!--    &lt;!&ndash;    配置aop&ndash;&gt;-->
-    <!--    <aop:config>-->
-    <!--&lt;!&ndash;        <aop:pointcut id="pc" expression="execution(* login(String,..)) || execution(* register(..))"/>&ndash;&gt;-->
-    <!--&lt;!&ndash;        <aop:pointcut id="pc" expression="args(String,String)"/>&ndash;&gt;-->
-    <!--        <aop:pointcut id="pc" expression="within(*..UserServiceImpl)"/>-->
-    <!--        <aop:advisor advice-ref="myProxyMethodBeforeAdvice" pointcut-ref="pc"/>-->
-    <!--        <aop:advisor advice-ref="myArround" pointcut-ref="pc"/>-->
-    <!--    </aop:config>-->
+        <!--    配置aop  动态代理-->
+        <aop:config>
+    <!--        <aop:pointcut id="pc" expression="execution(* login(String,..)) || execution(* register(..))"/>-->
+    <!--        <aop:pointcut id="pc" expression="args(String,String)"/>-->
+            <aop:pointcut id="pc" expression="within(*..UserServiceImpl)"/>
+            <aop:advisor advice-ref="myProxyMethodBeforeAdvice" pointcut-ref="pc"/>
+<!--            <aop:advisor advice-ref="myArround" pointcut-ref="pc"/>-->
+        </aop:config>
+    <context:component-scan base-package="com.zpark.basic.service.proxy,com.zpark.basic.service.aspect"/>
 
 </beans>

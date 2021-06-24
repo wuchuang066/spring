@@ -1,9 +1,7 @@
 package com.zpark.basic.spring;
 
 import com.zpark.basic.entity.Customer;
-import com.zpark.basic.service.OrderService;
-import com.zpark.basic.service.aspect.UserService;
-import com.zpark.basic.service.aspect.UserServiceImpl;
+import com.zpark.basic.service.UserService;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
